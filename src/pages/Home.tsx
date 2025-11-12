@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import heroImage from "@/assets/hero-thali.jpg";
 import { ChefHat, Heart, Sparkles } from "lucide-react";
 
 const Home = () => {
@@ -46,7 +45,7 @@ const Home = () => {
           </div>
           <div className="relative animate-fade-in">
             <img
-              src={heroImage}
+              src="/public/image2.jpg"
               alt="Authentic Gujarati Thali"
               className="rounded-2xl shadow-warm w-full"
             />

@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import Feedback from "./pages/Feedback";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./pages/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +20,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />

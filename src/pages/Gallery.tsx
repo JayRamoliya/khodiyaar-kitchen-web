@@ -1,21 +1,15 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import khaman from "@/assets/khaman.jpg";
-import undhiyu from "@/assets/undhiyu.jpg";
-import jalebi from "@/assets/jalebi.jpg";
-import thepla from "@/assets/thepla.jpg";
-import heroThali from "@/assets/hero-thali.jpg";
-import interior from "@/assets/restaurant-interior.jpg";
 
 const Gallery = () => {
   const images = [
-    { src: heroThali, caption: "Authentic Gujarati Thali", alt: "Complete Gujarati Thali" },
-    { src: khaman, caption: "Freshly Made Dhokla", alt: "Khaman Dhokla" },
-    { src: undhiyu, caption: "Traditional Undhiyu", alt: "Undhiyu Mixed Vegetables" },
-    { src: jalebi, caption: "Sweet Crispy Jalebi", alt: "Jalebi Dessert" },
-    { src: thepla, caption: "Homemade Thepla", alt: "Thepla Flatbread" },
-    { src: interior, caption: "Our Dining Area", alt: "Restaurant Interior" },
+    { src: '/public/image1.jpg', caption: "Authentic Gujarati Thali", alt: "Complete Gujarati Thali" },
+    { src: '/public/image2.jpg', caption: "Freshly Made Dhokla", alt: "Khaman Dhokla" },
+    { src: '/public/image1.jpg', caption: "Traditional Undhiyu", alt: "Undhiyu Mixed Vegetables" },
+    { src: '/public/image2.jpg', caption: "Sweet Crispy Jalebi", alt: "Jalebi Dessert" },
+    { src: '/public/image1.jpg', caption: "Homemade Thepla", alt: "Thepla Flatbread" },
+    { src: '/public/image2.jpg', caption: "Our Dining Area", alt: "Restaurant Interior" },
   ];
 
   return (

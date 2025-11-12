@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
-import restaurantImage from "@/assets/restaurant-interior.jpg";
 import { Award, Heart, Users } from "lucide-react";
 
 const About = () => {
@@ -42,7 +41,7 @@ const About = () => {
           </div>
           <div className="animate-fade-in">
             <img
-              src={restaurantImage}
+              src="/public/image1.jpg"
               alt="Restaurant Interior"
               className="rounded-2xl shadow-warm w-full"
             />
