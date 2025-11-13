@@ -4,12 +4,12 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 const Gallery = () => {
   const images = [
-    { src: '/public/image1.jpg', caption: "Authentic Gujarati Thali", alt: "Complete Gujarati Thali" },
-    { src: '/public/image2.jpg', caption: "Freshly Made Dhokla", alt: "Khaman Dhokla" },
-    { src: '/public/image1.jpg', caption: "Traditional Undhiyu", alt: "Undhiyu Mixed Vegetables" },
-    { src: '/public/image2.jpg', caption: "Sweet Crispy Jalebi", alt: "Jalebi Dessert" },
-    { src: '/public/image1.jpg', caption: "Homemade Thepla", alt: "Thepla Flatbread" },
-    { src: '/public/image2.jpg', caption: "Our Dining Area", alt: "Restaurant Interior" },
+    { src: '/image1.jpg', caption: "Authentic Gujarati Thali", alt: "Complete Gujarati Thali" },
+    { src: '/image2.jpg', caption: "Freshly Made Dhokla", alt: "Khaman Dhokla" },
+    { src: '/image1.jpg', caption: "Traditional Undhiyu", alt: "Undhiyu Mixed Vegetables" },
+    { src: '/image2.jpg', caption: "Sweet Crispy Jalebi", alt: "Jalebi Dessert" },
+    { src: '/image1.jpg', caption: "Homemade Thepla", alt: "Thepla Flatbread" },
+    { src: '/image2.jpg', caption: "Our Dining Area", alt: "Restaurant Interior" },
   ];
 
   return (

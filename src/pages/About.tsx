@@ -41,7 +41,7 @@ const About = () => {
           </div>
           <div className="animate-fade-in">
             <img
-              src="/public/image1.jpg"
+              src="/image1.jpg"
               alt="Restaurant Interior"
               className="rounded-2xl shadow-warm w-full"
             />
