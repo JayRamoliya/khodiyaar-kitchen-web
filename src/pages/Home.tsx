@@ -33,7 +33,7 @@ const Home = () => {
                 </Button>
               </Link>
               <a
-                href="https://wa.me/919876543210?text=I'd like to place an order"
+                href="https://wa.me/916353716421?text=I'd like to place an order"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -45,7 +45,7 @@ const Home = () => {
           </div>
           <div className="relative animate-fade-in">
             <img
-              src="/public/image2.jpg"
+              src="/image2.jpg"
               alt="Authentic Gujarati Thali"
               className="rounded-2xl shadow-warm w-full"
             />

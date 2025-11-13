@@ -24,7 +24,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/jay_ramoliya133/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
@@ -32,7 +32,7 @@ const Footer = () => {
                 <Instagram className="h-5 w-5" />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.instagram.com/jay_ramoliya133/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
@@ -40,7 +40,7 @@ const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/916353716421"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
@@ -73,7 +73,7 @@ const Footer = () => {
             <ul className="space-y-2 text-muted-foreground">
               <li>Near Bus Stand</li>
               <li>Rajkot, Gujarat - 360001</li>
-              <li>Phone: +91 98765 43210</li>
+              <li>Phone: +91 6353716421</li>
               <li>Email: info@hotelkhodiyaar.com</li>
               <li>Hours: 8:00 AM - 11:00 PM</li>
             </ul>
